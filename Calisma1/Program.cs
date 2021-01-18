@@ -134,11 +134,51 @@ namespace Calisma1
                 Console.WriteLine(semt);
             }
 
+            string meyve1 = "Elma";
+            double fiyat1 = 10;
+            string aciklama1 = "Kırmızı elma";
+
+            
+
+           string meyve2 = "Ayva";
+            double fiyat2 = 5;
+            string aciklama2 = "Taze ayva";
+
+            string[] meyveler = new string[] { meyve1, meyve2 };
+
+            foreach (var meyve in meyveler)
+            {
+                Console.WriteLine(meyve);
+            }
+
+            for (int i = 0; i < meyveler.Length; i++)
+            {
+                Console.WriteLine(meyveler[i]);
+            }
+            
+            Console.WriteLine("Tebrikler. Sepete eklendi:" + meyve1);
+            Console.WriteLine("Tebrikler. Sepete eklendi:" + meyve2);
+
+            string sehir1 = "İstanbul";
+            int nufus1 = 15000;
+            string Bolge1 = "Marmara";
+            
+            string sehir2 = "Bursa";
+            int nufus2 = 10000;
+            string Bolge3 = "Marmara";
+            
+            string sehir3 = "Antalya";
+            int nufus3 = 5000;
+            string bolge3 = "Akdeniz";
+
+            string[] Sehir = new string[] {sehir1, sehir2,sehir3 };
+
+            Console.WriteLine("İstanbul'un nüfusu:" + nufus1);
+            Console.WriteLine("Bursa'nın nüfusu:" + nufus2);
+            Console.WriteLine("Antalya'nın nüfusu:" + nufus3);
 
 
-
-
-
+        
 
 
 
