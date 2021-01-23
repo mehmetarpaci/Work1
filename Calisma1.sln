@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calisma1", "Calisma1\Calisma1.csproj", "{7A858659-0FBD-4592-B4AA-395322280053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfBlok", "IfBlok\IfBlok.csproj", "{D32865E4-3451-482D-A57B-3A84F070BE1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfBlok", "IfBlok\IfBlok.csproj", "{D32865E4-3451-482D-A57B-3A84F070BE1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{9548CB89-ACE8-47D9-8385-E94E4257C40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{B94CA301-ABC0-4ADF-AC25-D74BD174A209}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{D32865E4-3451-482D-A57B-3A84F070BE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32865E4-3451-482D-A57B-3A84F070BE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32865E4-3451-482D-A57B-3A84F070BE1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9548CB89-ACE8-47D9-8385-E94E4257C40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9548CB89-ACE8-47D9-8385-E94E4257C40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9548CB89-ACE8-47D9-8385-E94E4257C40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9548CB89-ACE8-47D9-8385-E94E4257C40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B94CA301-ABC0-4ADF-AC25-D74BD174A209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94CA301-ABC0-4ADF-AC25-D74BD174A209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94CA301-ABC0-4ADF-AC25-D74BD174A209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94CA301-ABC0-4ADF-AC25-D74BD174A209}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
